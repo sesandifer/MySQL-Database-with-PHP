@@ -1,0 +1,200 @@
+@charset "utf-8";
+
+#wrap { 
+	width: 100%; 
+	margin: 0 auto;
+
+}
+
+#navigate {
+  overflow: hidden;
+
+}
+
+#navigate a {
+  float: left;
+  text-align: center;
+  padding: 10px 20px;
+  text-decoration: none;
+
+  font-size: 25px;
+}
+
+
+#navigate2 {
+  overflow: hidden;
+
+}
+
+#navigate2 a {
+  float: left;
+  text-align: center;
+  padding: 10px 20px;
+  text-decoration: none;
+
+  font-size: 25px;
+}
+
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+.tm1 {width: 200px; }
+
+h1 {
+  font-family: Helvetica;
+  font-weight: 100;
+}
+body {
+  font-family: arial;
+}
+
+ul {
+	list-style-type: none;
+}
+
+
+h2, h4 {
+    font-family: verdana,arial,sans-serif;
+	margin: 5px auto;
+
+}
+
+h3 {
+    font-family: verdana,arial,sans-serif;
+	margin: 5px auto;
+    color: black;
+	text-align: center;
+}
+
+
+div content {
+	clear: both;
+
+	padding-top: 0px;
+
+}
+
+div info {
+
+	float: left;
+	border-radius: 8px;
+
+	text-align:left;
+}
+
+a:link {
+	text-align:center;
+	display:block;
+	text-decoration: none;
+	font-weight: bold;
+
+}
+
+.btn {
+    font-family: verdana,arial,sans-serif;
+	margin: 5px auto;
+
+}
+
+.table {
+   margin: auto;
+   width: 90% !important; 
+}
+
+
+
+table.grid {
+	font-family: verdana,arial,sans-serif;
+	font-size:16px;
+	color:#333333;
+	border-width: 1px;
+	border-color: #666666;
+	border-collapse: collapse;
+	margin: 5px auto;
+	caption-side: top;
+}
+
+table.grid th {
+	border-width: 1px;
+	padding: 4px;
+	border-style: solid;
+	border-color: #666666;
+	background-color: #dedede;
+}
+
+table.grid td {
+	border-width: 1px;
+	padding: 4px;
+	border-style: solid;
+	border-color: #666666;
+	background-color: #ffffff;
+
+}
+
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+	width: 100px;
+
+	margin: 10px;
+	padding: 10px;
+    text-decoration: none;
+}
+
+
+
+.column {
+    float: left;
+    width: 47%;
+    margin: 15px;
+}
+
+
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.item {
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+    padding: 0 5px;
+}
+
+.tblscrl {
+  height: 600px;
+  width: 95%;
+  overflow-y: auto;
+}
+
+
+.tblscrlsml {
+  height: 500px;
+  width: 95%;
+  overflow-y: scroll;
+}
+
+div form {
+  border-radius: 10px 10px;
+
+  background-color: lightskyblue;
+  max-width: 75%;
+  margin: auto;
+  padding: 20px;
+}
+
+
